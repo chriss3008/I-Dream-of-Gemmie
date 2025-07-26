@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to relfgfgfgfgfgfgfgfgfgfgfgfgad.
         </p>
         <a
           className="App-link"
@@ -20,6 +20,7 @@ function App() {
       </header>
     </div>
   );
-}
+}git remote add origin https://github.com/chriss3008/I-Dream-of-Gemmie.git
+
 
 export default App;
