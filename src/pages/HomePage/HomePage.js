@@ -11,8 +11,6 @@ const HomePage = () => {
 
     // States and Constants 
     const navigate = useNavigate()
-
-
     const onClickProfile = () => {
         goToProfilePage(navigate)
     }
