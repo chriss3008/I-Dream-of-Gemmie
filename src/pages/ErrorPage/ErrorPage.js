@@ -1,16 +1,25 @@
-
-
 // React
 import React, { useState, useEffect } from "react";
+
+// Assets
+import ErrorImage from "../../assets/404ErrorPage.png"
+
+// Routes
+import { useNavigate } from "react-router-dom";
+import { goToHomePage } from "../../router/coordinator";
 
 
 // Code
 const GemPage = () => {
 
+    const navigate = useNavigate()
+
 
     return (
         <a>       
-            <h1>Error</h1> 
+            <h1>Error Page</h1> 
+             <img src={ErrorImage} onClick={() => goToHomePage(navigate)} />
+
         </a>
     )
 }
