@@ -7,6 +7,7 @@ import { goToHomePage } from "../router/coordinator";
 
 // Assets
 import TMDB from "../assets/tmdb.png"
+import Sapphire from "../assets/Sapphire.jpg"
 
 // Style
 import styled from "styled-components";
@@ -35,7 +36,7 @@ const Header = () => {
 
     return (
         <HeaderStyled>
-            <img src={TMDB} onClick={() => goToHomePage(navigate)} />
+            <img src={Sapphire} onClick={() => goToHomePage(navigate)} />
         </HeaderStyled>
     )
 }
