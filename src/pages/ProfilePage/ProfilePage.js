@@ -24,7 +24,7 @@ const ProfilePage = () => {
             <h1>First profile page</h1>
             <p>At first, only one</p>    
             <button onClick={onClickGem}>Go to Gem</button>
-            <button onClick={() => goToGemPage(navigate)}>Go to Gem</button>
+            {/* <button onClick={() => goToGemPage(navigate)}>Go to Gem</button> */}
 
         </a>
     )
