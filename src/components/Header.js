@@ -1,6 +1,3 @@
-// Libraries
-import React from "react";
-
 // Routes
 import { useNavigate } from "react-router-dom";
 import { goToHomePage } from "../router/coordinator";
