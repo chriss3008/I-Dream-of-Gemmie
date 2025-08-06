@@ -1,6 +1,3 @@
-// React
-import React, { useState, useEffect } from "react";
-
 // Assets
 import ErrorImage from "../../assets/404ErrorPage.png"
 
