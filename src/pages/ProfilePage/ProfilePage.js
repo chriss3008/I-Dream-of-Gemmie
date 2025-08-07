@@ -1,8 +1,4 @@
 
-// React
-import React, { useState, useEffect } from "react";
-
-
 // Router
 import { goToGemPage } from "../../router/coordinator";
 import { useNavigate } from "react-router-dom";
