@@ -1,6 +1,3 @@
-// Libraries
-import React from "react";
-
 // Routes
 import { Routes, Route } from "react-router-dom"
 
